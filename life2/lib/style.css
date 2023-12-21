@@ -1,0 +1,52 @@
+body {
+  
+   background-image:
+    url(https://bogatyr.club/uploads/posts/2023-01/thumbs/1674778112_bogatyr-club-p-biryuzovii-gradient-fon-instagram-4.jpg);
+    background-position: center center;
+  background-size: cover;
+background-repeat: no-repeat;
+*/background-attachment: fixed;
+// background: url("path_to_my_image.jpg") center center no-repeat  fixed;
+  // background-size: cover;
+}  
+
+#gridContainer {
+    padding-bottom: 10px;
+}
+
+table {
+    background-color: #c59cf7;
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid #e0fff5;
+    border-radius: 5px;
+    width: 5px;
+    height: 10px;
+}
+
+span {
+    color: rgb(17, 16, 16);
+}
+
+#start,
+#clear,
+#random {
+    padding: .75em;
+    border-radius: 5px;
+    border: none;    
+    background: linear-gradient(
+        to bottom right,
+        #c2fd8b, #21f5d2);
+}
+
+td.dead {
+    background-color: transparent;
+}
+
+td.live {
+    background-color: #fd51e6;
+    border-radius: 10px;
+}
+
